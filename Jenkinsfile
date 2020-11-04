@@ -13,11 +13,9 @@ pipeline {
                 script {
                     gv = load "mygroovyscript.groovy"
                 }
-              
             }
         }
     
-    stages {
         stage("build") {
             steps {
               script {
